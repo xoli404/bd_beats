@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Paperclip Birthday Beats</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: "#FF4D6D",
+secondary: "#4CC9F0",
+accent: "#FFD166",
+dark: "#1B1B2F",
+light: "#F9F9F9"
+},
+fontFamily: {
+heading: ["Poppins","sans-serif"],
+body: ["Fredoka","sans-serif"]
+}
+}
+}
+}
+</script>
+
+</head>
+
+<body class="bg-light text-dark font-body">
+
+<!-- HEADER -->
+<header class="bg-white shadow sticky top-0 z-10">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<h1 class="text-2xl font-bold text-primary">🎶 Paperclip Birthday Beats</h1>
+</div>
+</header>
+
+<!-- HERO -->
+<section class="bg-gradient-to-r from-primary to-secondary text-white py-16 text-center px-4">
+<img src="hero2.png" class="mx-auto mb-6 rounded-xl shadow-lg">
+<h2 class="text-5xl font-bold mb-4">Turn a Birthday Into a Beat 🎶</h2>
+<p class="text-xl mb-6">Personalised musical gifts that make birthdays unforgettable!</p>
+<a href="#order" class="bg-accent text-dark px-8 py-3 rounded-full font-bold text-lg">Create My Birthday Beat</a>
+</section>
+
+<!-- KIDS SECTION -->
+<section class="py-12 bg-yellow-100 text-center px-4">
+<h2 class="text-3xl font-bold mb-4">🎈 Perfect for Kids</h2>
+<p>Fun, playful songs kids LOVE. A magical birthday surprise!</p>
+</section>
+
+<!-- DEMO -->
+<section class="py-16 text-center px-4">
+<h2 class="text-3xl font-bold mb-10">Listen to Demo Songs</h2>
+
+<div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+<div class="bg-white p-4 rounded-xl shadow">
+<img src="adult_pop.png" class="rounded mb-4">
+<h3 class="font-bold">Adult – Pop</h3>
+<button class="mt-2 bg-primary text-white px-4 py-2 rounded">Play</button>
+</div>
+
+<div class="bg-white p-4 rounded-xl shadow">
+<img src="adult_jazz.png" class="rounded mb-4">
+<h3 class="font-bold">Adult – Jazz</h3>
+<button class="mt-2 bg-primary text-white px-4 py-2 rounded">Play</button>
+</div>
+
+<div class="bg-white p-4 rounded-xl shadow">
+<img src="kds_funstyle.png" class="rounded mb-4">
+<h3 class="font-bold">Kids – Fun Style 🎈</h3>
+<button class="mt-2 bg-primary text-white px-4 py-2 rounded">Play</button>
+</div>
+
+</div>
+</section>
+
+<!-- PRICING -->
+<section class="py-16 bg-gray-100 text-center px-4">
+<h2 class="text-3xl font-bold mb-10">Pricing</h2>
+
+<div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+<div class="bg-white p-6 rounded-xl shadow">
+<h3 class="text-xl font-bold mb-2">Basic Beat</h3>
+<p class="text-3xl mb-4">$9.99</p>
+<p>Simple personalised song</p>
+</div>
+
+<div class="bg-white p-6 rounded-xl shadow border-4 border-accent">
+<h3 class="text-xl font-bold mb-2">Popular</h3>
+<p class="text-3xl mb-4">$19.99</p>
+<p>More detail & customisation</p>
+</div>
+
+<div class="bg-white p-6 rounded-xl shadow">
+<h3 class="text-xl font-bold mb-2">Deluxe</h3>
+<p class="text-3xl mb-4">$39.99</p>
+<p>Full premium experience</p>
+</div>
+
+</div>
+</section>
+
+<!-- ORDER -->
+<section id="order" class="py-16 text-center px-4 bg-primary text-white">
+<h2 class="text-3xl font-bold mb-6">Create Your Song</h2>
+
+<form class="max-w-xl mx-auto space-y-4">
+
+<input type="text" placeholder="Recipient Name" class="w-full p-3 rounded text-dark">
+<input type="number" placeholder="Age" class="w-full p-3 rounded text-dark">
+
+<select class="w-full p-3 rounded text-dark">
+<option>Relationship</option>
+<option>Friend</option>
+<option>Parent</option>
+<option>Partner</option>
+<option>Child</option>
+<option>Sibling</option>
+<option>Colleague</option>
+</select>
+
+<select class="w-full p-3 rounded text-dark">
+<option>Tone</option>
+<option>Elegant</option>
+<option>Fun & Upbeat</option>
+<option>Romantic</option>
+<option>Wholesome</option>
+</select>
+
+<select class="w-full p-3 rounded text-dark">
+<option>Alternative</option>
+<option>Ambient</option>
+<option>Blues</option>
+<option>Classical</option>
+<option>Country</option>
+<option>Dance</option>
+<option>Electronic</option>
+<option>Experimental</option>
+<option>Folk</option>
+<option>Funk Soul</option>
+<option>Hip Hop</option>
+<option>House</option>
+<option>Hyperpop</option>
+<option>Indie Rock</option>
+<option>Jazz</option>
+<option>Latin</option>
+<option>Metal</option>
+<option>Pop</option>
+<option>Punk</option>
+<option>R&B</option>
+<option>Reggae</option>
+<option>Rock</option>
+<option>Soundtrack</option>
+<option>Afrobeats</option>
+</select>
+
+<textarea placeholder="Optional Message (for lyrics)" class="w-full p-3 rounded text-dark"></textarea>
+
+<a href="https://paypal.me/YOURNAME" class="block bg-accent text-dark font-bold py-3 rounded">Pay with PayPal</a>
+
+</form>
+
+<p class="mt-4">⏰ Please order at least 72 hours before the birthday</p>
+</section>
+
+<!-- FAQ -->
+<section class="py-16 px-4 text-center">
+<h2 class="text-3xl font-bold mb-8">FAQs</h2>
+
+<div class="max-w-xl mx-auto text-left space-y-6">
+
+<div>
+<h3 class="font-bold">How long does it take?</h3>
+<p>Within 72 hours.</p>
+</div>
+
+<div>
+<h3 class="font-bold">How will I receive my song?</h3>
+<p>Your song will be delivered via email as an MP3 file.</p>
+</div>
+
+<div>
+<h3 class="font-bold">Can I request changes?</h3>
+<p>Due to the nature of digital products, revisions require a new order.</p>
+</div>
+
+<div>
+<h3 class="font-bold">Refunds?</h3>
+<p>Digital downloads cannot be reversed once delivered.</p>
+</div>
+
+</div>
+</section>
+
+<footer class="bg-dark text-white text-center py-6">
+<p>© 2026 Paperclip Birthday Beats</p>
+</footer>
+
+</body>
+</html>
